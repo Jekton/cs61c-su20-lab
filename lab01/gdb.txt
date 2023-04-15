@@ -1,9 +1,10 @@
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+# answered with lldb
+1. run <args>
+2. breakpoint set --name main
+3. thread step-over
+4. thread step-in
+5. thread continue
+6. `frame variable bar` for local variables; `target variable baz` for global variables
+7. watchpoint set variable foo
+8. frame variable
+9. exit/quit
