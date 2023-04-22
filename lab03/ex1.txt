@@ -1,0 +1,6 @@
+1. .data says the followings must be placed in the data section;
+   .word used to alloc words in the data section;
+   .text used to move to the text section
+2. 34; fibonacci(9)
+3. 0x10000010
+4. after local value of n from memory, set t3 to 13

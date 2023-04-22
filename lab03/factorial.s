@@ -21,4 +21,13 @@ main:
     ecall # Exit
 
 factorial:
-    # YOUR CODE HERE
+    addi t0, x0, 1                # t0 is the accumulator
+    li t1, 1
+loop:
+    bge t1, a0, fac_exit
+    addi t1, t1, 1
+    mul t0, t0, t1
+    j loop
+fac_exit:
+    mv a0, t0
+    ret

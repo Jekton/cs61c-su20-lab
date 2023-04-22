@@ -1,0 +1,3 @@
+1. k - t0
+2. sum - s0
+3. source - s1, dest - s2
